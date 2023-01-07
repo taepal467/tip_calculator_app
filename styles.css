@@ -8,7 +8,6 @@ body {
 .logo-img {
     margin-left: 640px;
     margin-top: 100px;
-
 }
 
 /*Form*/
@@ -99,7 +98,6 @@ input[type="number"]::-webkit-outer-spin-button
 .amount-input:focus {
     outline: none ;
     border: none;
-  
 }
 
 .amount-input,
@@ -112,10 +110,6 @@ input[type="number"]::-webkit-outer-spin-button
 }
 
 /*labels*/
-.bill {
-    padding-top: 20px;
-}
-
 .select {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -137,20 +131,20 @@ input[type="number"]::-webkit-outer-spin-button
     font-size: 12px;
     position: absolute;
     left: 580px;
-    top: 475px;
+    top: 455px;
  }
 
 /*icons*/
 #dollar-sign {
     position: absolute;
-    left: 400px;
-    top: 275px;
+    left: 420px;
+    top: 255px;
 }
 
 #person-icon {
     position: absolute;
-    left: 400px;
-    top: 500px;
+    left: 420px;
+    top: 485px;
 }
 
 /*Tip buttons*/
@@ -237,7 +231,69 @@ input[type="number"]::-webkit-outer-spin-button
  }
 
  /*Mobile-First*/
+ @media only screen and (max-width: 768px) {
 
+    .logo-img {
+        margin-left: 195px;
+        margin-top: 50px;
+    }
+
+    .tip-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50vh;
+        height: 90vh;
+        margin-left: 60px;
+        margin-top: 60px
+    }
+
+    .tip-btns {
+        display: grid;
+        grid-template-columns: repeat(3, 90px);
+        gap: 2px;
+        margin-top: 50px;
+    }
+
+    .select {
+       margin-top: -50px;
+    }
+
+    .label-title {
+        padding-left: 40px;
+    }
+
+    .bill-input,
+    .numOfPeople-input {
+        margin-left: 40px;  
+    }
+
+    #dollar-sign {
+        left: 110px;
+        top: 225px;
+    }
+    
+    #person-icon {
+        left: 110px;
+        top: 485px;
+    }
+
+    .error-message {
+        left: 280px;
+        top: 455px;
+     }
+
+     .perPerson-input {
+       margin-left: 25px;
+       padding-bottom: 20px;
+    }
+
+    .reset-button {
+        padding: 10px 95px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+  }
 
 
 
