@@ -7,9 +7,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -31,7 +29,7 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Live Site](https://taepal467.github.io/tip_calculator_app/?bill=&numberOfPeople=&amount=&total=)
 
-## My process
+
 
 ### Built with
 
@@ -42,21 +40,14 @@ Users should be able to:
 - Mobile-first workflow
 
 
-### What I learned
-
-
-
 ### Continued development
 
-As of 4/16/22 This project is incomplete. The JavaScript portion was too challenging for me but eventually I will comback and complete the project. I also need to work on the Mobile-first Workflow.
-
+To use the tip calculator, you will need to enter the bill amount, then the number of people then LASTLY the tip amount. For some reason that is the only way it will work. If you don't enter the information accordingly, NaN will be displayed as the tip calculation.
 
 
 ### Useful resources
 
 - [StackOverFlow](https://www.codegrepper.com/code-examples/css/input+type+number+drop+down+hide) - This helped me hide the drop down menu that's used for the <input type="number>.
-
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
