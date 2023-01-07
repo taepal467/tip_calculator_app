@@ -25,16 +25,16 @@
       <div class="tip-input">
           <!-- Bill input -->
           <label for="bill" class="label-title bill">Bill</label>
-          <input type="number" id="bill" class="bill-input" placeholder="0" name="bill" value="">
+          <input type="number" id="bill" class="bill-input" placeholder="0" name="bill">
           <img src="images/icon-dollar.svg" id="dollar-sign" alt="dollar sign">
 
           <!-- Tip buttons input-->
           <div class="tip-btns">
           <label for="tip" class="label-title select">Select Tip %</label>
             <div class="col">
-              <button type="number" class="tip-buttons five" value="5%">5%</button>
-              <button class="tip-buttons ten" value="10%">10%</button>
-              <button class="tip-buttons fifteen" value="15%">15%</button>
+              <button type="button" class="tip-buttons five" value="5%">5%</button>
+              <button type="button"  class="tip-buttons ten" value="10%">10%</button>
+              <button type="button"  class="tip-buttons fifteen" value="15%">15%</button>
             </div>
             <div class="col">
               <button type="button" class="tip-buttons twenty-five" value="25%">25%</button>
@@ -58,14 +58,14 @@
             <label class="sub-label" for="total">/ person</label>
           </div>
           <div class="col input-col">
-            <input type="number" id="amount" class="amount-input" name="amount" placeholder="$0.00">
+            <p id="amount" class="amount-input">$0.00</p>
           </div>
           <div class="col total-col">
             <label class="total-label" for="total">Total</label><br>
             <label class="sub-label" for="total"> / person</label>
           </div>
           <div class="col input-col">
-            <input type="number" id="total" class="total-input" name="total" placeholder="$0.00">
+            <p id="total" class="total-input">$0.00</p>
           </div>
 
           <!-- Reset Button -->
