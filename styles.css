@@ -64,6 +64,22 @@ input[type="number"]::-webkit-outer-spin-button
     color: hsl(186, 15%, 59%);
 }
 
+.bill-input {
+    background-image: url(/images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-size: calc(contain);
+    background-position-y: center;
+    background-position-x: 15px;
+}
+
+.numOfPeople-input {
+    background-image: url(/images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-size: calc(contain);
+    background-position-y: center;
+    background-position-x: 15px;
+}
+
 .bill-input,
 .numOfPeople-input {
     background-color: hsl(189, 41%, 97%);
@@ -133,19 +149,6 @@ input[type="number"]::-webkit-outer-spin-button
     left: 580px;
     top: 455px;
  }
-
-/*icons*/
-#dollar-sign {
-    position: absolute;
-    left: 420px;
-    top: 255px;
-}
-
-#person-icon {
-    position: absolute;
-    left: 420px;
-    top: 485px;
-}
 
 /*Tip buttons*/
 .five {
@@ -266,16 +269,6 @@ input[type="number"]::-webkit-outer-spin-button
     .bill-input,
     .numOfPeople-input {
         margin-left: 40px;  
-    }
-
-    #dollar-sign {
-        left: 110px;
-        top: 225px;
-    }
-    
-    #person-icon {
-        left: 110px;
-        top: 485px;
     }
 
     .error-message {
